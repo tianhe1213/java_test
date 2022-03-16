@@ -15,7 +15,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         //表单提交
         http.formLogin()
                 //自定义登录页面
-                .loginPage("/login.html");
+                .loginPage("/login.html1111");
     }
 
     @Bean
